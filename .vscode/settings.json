@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Conda LLMs": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-ExecutionPolicy",
+                "ByPass",
+                "-NoExit",
+                "-Command",
+                "& 'C:\\anaconda3\\shell\\condabin\\conda-hook.ps1'; conda activate LLMs"
+            ],
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Conda LLMs"
+}
